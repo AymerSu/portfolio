@@ -23,7 +23,7 @@ nav ul li.home {
 }
 
 nav ul li.menu-item {
-  margin-left: auto; /* Esto posiciona los elementos menu-item a la derecha */
+  margin-left: auto;
 }
 
 nav ul li a {
