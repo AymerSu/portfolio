@@ -20,7 +20,7 @@ function Tarjet() {
         <div class="tarjeta">
             <h1>Estudios</h1>
             <h3>SENA</h3>
-            <p>Analisis y desarrollo de sistemas de información</p>
+            <p>Tecnólogo en Analisis y desarrollo de sistemas de información</p>
             <Buttons textoButton={textButtons}></Buttons>
             <hr></hr>
             <h3>SENA</h3>
