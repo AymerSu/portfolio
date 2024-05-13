@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/AymerSu/portfolio/static/css/main.da3cefc8.css",
+    "main.js": "/AymerSu/portfolio/static/js/main.3d51c2cb.js",
+    "static/js/453.1407b060.chunk.js": "/AymerSu/portfolio/static/js/453.1407b060.chunk.js",
+    "index.html": "/AymerSu/portfolio/index.html",
+    "main.da3cefc8.css.map": "/AymerSu/portfolio/static/css/main.da3cefc8.css.map",
+    "main.3d51c2cb.js.map": "/AymerSu/portfolio/static/js/main.3d51c2cb.js.map",
+    "453.1407b060.chunk.js.map": "/AymerSu/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da3cefc8.css",
+    "static/js/main.3d51c2cb.js"
+  ]
+}
