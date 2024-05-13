@@ -3,7 +3,7 @@ import { Title } from './../components/Titles';
 import { Tarjetpr } from '../components/Tarjetpr';
 
 const titlePri = "Proyectos personales realizados";
-const textDes = "En este proyecto encontrara los proyectos personales realizados y con su respectivo repositorio:";
+const textDes = "En esta sección encontrara los proyectos personales realizados y con su respectivo repositorio:";
 
 function Project() {
     return (
