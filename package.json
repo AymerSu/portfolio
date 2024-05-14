@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://AymerSu.github.io/portfolio/build",
+  "homepage": "https://AymerSu.github.io/portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
