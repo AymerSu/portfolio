@@ -14,6 +14,7 @@ function App() {
         <Headers />
         <Routes>
           <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio" element={<Home />} />
           <Route path="/proyectos" element={<Project />} />
           <Route path="/contacto" element={<Contact />} />
           {/* Define otras rutas aquí */}
