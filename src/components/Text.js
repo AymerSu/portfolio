@@ -3,7 +3,7 @@ import './../styles/Text.css';
 
 function Text(props) {
     return (
-    <div class="contenedor-text-img">
+    <div className="contenedor-text-img">
         <p>{props.text}</p>
         <Image></Image>
     </div>

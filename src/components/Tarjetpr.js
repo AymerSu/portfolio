@@ -6,12 +6,12 @@ const textB = "Repositorio"
 
 function Tarjetpr({titleR, textDeP, urlR, pathGif}) {
     return (
-        <div class="container-tarjet-black">
-            <div class="tarjeta-black">
+        <div className="container-tarjet-black">
+            <div className="tarjeta-black">
                 <h3>{titleR}</h3>
                 <p>{textDeP}</p>
                 <Imagesp 
-                path={pathGif}
+                    path={pathGif}
                 />
                 <Buttonsw 
                     textoButton={textB}

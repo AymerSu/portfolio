@@ -15,16 +15,16 @@ function Project() {
 
             <Tarjetpr 
                 titleR={'Repositorio de imagenes Corporativo'}
-                textDeP={'Proyecto personal creado para la gestión de imágenes corporativas, subida y descarga, además de un panel de administración para los usuarios y empresas registrados. Las imágenes se clasifican por empresas y los usuarios de igual manera. Se desarrolló en dos partes: backend y frontend. El backend utiliza tecnologías como Node.js, npm, TypeScript y TypeORM, mientras que el frontend se desarrolló en Angular.'}
+                textDeP={'Proyecto personal creado para la gestión de imágenes corporativas, subida y descarga, además de un panel de administración para los usuarios y empresas registrados. Las imágenes se clasifican por empresas y los usuarios de igual manera. Se desarrolló en dos partes: backend y frontend. El backend utiliza tecnologías como Node.js, npm, TypeScript y TypeORM, mientras que el frontend se desarrolló en Angular, ambos proyectos están privados en GitHub.'}
                 pathGif={'/project2.gif'}
-                urlR={'https://github.com/AymerSu/AymerSena.github.io'}
+                urlR={'https://github.com/AymerSu'}
             />
 
             <Tarjetpr 
                 titleR={'Portafolio WEB desarrollador'}
                 textDeP={'He desarrollado una página web utilizando React con el propósito de exhibir mi portafolio profesional, mi hoja de vida y destacar las diversas habilidades que he adquirido a lo largo de mi trayectoria. Esta plataforma ofrece una ventana digital donde puedo mostrar de manera detallada mis proyectos, experiencias laborales, y el conjunto de habilidades técnicas.'}
                 pathGif={'/project3.gif'}
-                urlR={'https://github.com/AymerSu/AymerSena.github.io'}
+                urlR={'https://github.com/AymerSu/portfolio'}
             />
 
             <Tarjetpr 

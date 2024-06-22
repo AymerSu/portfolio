@@ -6,6 +6,7 @@ import { Footer } from './components/Footer';
 import { Project } from './pages/Project';
 import { Home } from './pages/Home';
 import { Contact } from './pages/Contact';
+import { AcademicDegree } from './pages/AcademicDegree';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path="/portfolio" element={<Home />} />
           <Route path="/proyectos" element={<Project />} />
           <Route path="/contacto" element={<Contact />} />
+          <Route path="/degree" element={<AcademicDegree />} />
           {/* Define otras rutas aquí */}
         </Routes>
         <Footer />

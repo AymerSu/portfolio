@@ -23,3 +23,9 @@
     background-color: #080c11;
   }
   
+  .tarjeta-black img {
+    max-width: 100%;
+    height: auto; 
+    border-radius: 10px;
+    margin: 10px 0; 
+  }

@@ -8,21 +8,21 @@ function Contact(params) {
     return (
         <React.Fragment>
         
-        <div class="container">
+        <div className="container">
             <h1>Contacto</h1>
 
             <p>Gracias por visitar mi página de portafolio online. Si tienes alguna pregunta, comentario o simplemente quieres ponerte en contacto conmigo, ¡no dudes en hacerlo! Estoy aquí para ayudarte.</p>
 
             <h2>Email</h2>
-            <div class="secc-email">    
+            <div className="secc-email">    
                 <div>
-                    <p>Correo electronico de contacto:</p>
+                    <p>Correo electrónico de contacto:</p>
                     <p>aymeryesid.aycs@gmail.com</p>
                 </div>
                 <MdMarkEmailUnread size={100}/>
             </div>
 
-            <div class="social-links">
+            <div className="social-links">
                 <h2>Redes Sociales</h2>
                 <ul>
                     <li><a href="https://www.linkedin.com/in/aymer-yesid-cruz-suescun-4502342bb/" target="_blank">LinkedIn</a></li>
