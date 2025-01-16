@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Headers } from './components/Headers';
+import { Footer } from './components/Footer';
+import { Project } from './pages/Project';
+import { Home } from './pages/Home';
+import { Contact } from './pages/Contact';
+import { AcademicDegree } from './pages/AcademicDegree';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <React.Fragment>
+        <Headers />
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route exact path="/portfolio" element={<Home />} />
+          <Route path="/proyectos" element={<Project />} />
+          <Route path="/contacto" element={<Contact />} />
+          <Route path="/degree" element={<AcademicDegree />} />
+          {/* Define otras rutas aquí */}
+        </Routes>
+        <Footer />
+      </React.Fragment>
+    </Router>
   );
 }
 

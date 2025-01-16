@@ -1,0 +1,60 @@
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+.social-links {
+    margin-top: 50px;
+}
+
+.social-links ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.social-links ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links ul li a:hover {
+    text-decoration: underline;
+}
+
+.secc-email {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
